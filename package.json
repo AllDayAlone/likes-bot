@@ -1,0 +1,31 @@
+{
+  "name": "likes-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for getting free instagram likes",
+  "main": "index.ts",
+  "scripts": {
+    "build-watch": "tsc -w  index.ts",
+    "watch": "nodemon out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllDayAlone/likes-bot.git"
+  },
+  "author": "Pavel Kalugin",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/AllDayAlone/likes-bot/issues"
+  },
+  "homepage": "https://github.com/AllDayAlone/likes-bot#readme",
+  "dependencies": {
+    "@types/node": "^14.14.37",
+    "airtable": "^0.10.1",
+    "joi": "^17.4.0",
+    "node-fetch": "^2.6.1",
+    "telegraf": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8"
+  }
+}

@@ -1,3 +1,6 @@
-# registration-bot
-A registration telegram bot.
-It collects user info like name and email, save to airtable and invites him to a private channel.
+# Registration Telegram Bot
+
+It collects user info (name and email) in telegram, save it to airtable and send a user one-time join link to a private channel.
+
+## Demo
+![demo flow](assets/demo.gif)
